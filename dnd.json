@@ -412,7 +412,7 @@
     "id": "vampire",
     "name": "Vampire",
     "team": "demon",
-    "ability": "Each night, choose a player to bite: they become poisoned. On the following night, they will die or become evil and feral. Evil wins if no good players are left.",
+    "ability": "Each night, choose a player to bite: they become poisoned. On the following night, they will die or become evil and feral.",
     "image": "https://philipber99.github.io/botc/icons/vampire.png",
     "reminders": [
       "Bite resolves next night",
