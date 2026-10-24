@@ -53,7 +53,7 @@
     "name": "Fighter",
     "team": "townsfolk",
     "ability": "Once per round, you can challenge a player to ro-sham-bo. If the loser is good aligned, they might die that night. If they are evil, they will not get to use their power that night.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQA4M23asqdRb12_UJJfp4AAQrnbToM_xB7McZQj45sz3o?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/fighter.png",
     "reminders": [
         "fight lost",
         "no wake (fight lost)"
@@ -67,7 +67,7 @@
     "name": "Barbarian",
     "team": "townsfolk",
     "ability": "Each day, when a player is successfully voted for execution, you become feral until the end of the day. If you are nominated by a good player while feral, they are executed and you are no longer feral.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSiFxRVRCyjSr5G5zxY8MHjAfPGmjfyW5oHihHUvBuagKs",
+    "image": "https://philipber99.github.io/botc/icons/barbarian.png",
     "reminders": [
       "Feral (Barbarian; day)"
     ],
@@ -79,7 +79,7 @@
     "name": "Bard",
     "team": "townsfolk",
     "ability": "You start knowing one in-play Townsfolk character. If you remain mad that you are that character, without claiming to be another character, you gain that player's ability when they die.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSJvbp3yZHtSKWk-ntmyp3yAWkmfD533_arw_zTBMh7vHY?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/bard.png",
     "reminders": [
       "Bard target",
       "Madness broken",
@@ -95,7 +95,7 @@
     "name": "Cleric",
     "team": "townsfolk",
     "ability": "You can cast 1 Divine spell per game at the time allowed by that spell. If you start the game next to any minions, one of those minions will know that one of their neighbors is the Cleric.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRIUThwN7XYSrebK41Pl5S5AQncnKvY_d-IQMqDekwW1Mw?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/cleric.png",
     "reminders": [
       "Silence",
       "Restoration",
@@ -118,7 +118,7 @@
     "name": "Druid",
     "team": "townsfolk",
     "ability": "Once per game at night, you can resurrect a dead player. They are feral for the remainder of the game (unless dispelled).",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ4sbtmKwDrQpy2C-D1z_U1AcXpiO0Q2O1eKzsSGKIy9Ko?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/druid.png",
     "reminders": [
       "Ability used",
       "Resurrected",
@@ -134,7 +134,7 @@
     "name": "Monk",
     "team": "townsfolk",
     "ability": "Each night*,  choose a player (not yourself): they can not be targetted by a Demon ability tonight. This does not stop delayed effects from occurring.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRgdlloCH8zT4qGcKVgm1_dAX7P07aIPdtACL3pl9Nw_1A?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/monk.png",
     "reminders": [
       "monk-protected"
     ],
@@ -147,7 +147,7 @@
     "name": "Paladin",
     "team": "townsfolk",
     "ability": "On the second night, choose a player to protect for the rest of the game. If they would die, you die instead and learn their alignment that night.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRmUzUDW28gTpIRiRtSZwPkAQFaBne3MWNraWHabBWZU8M?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/paladin.png",
     "reminders": [
       "paladin-protected",
       "Alignment due",
@@ -162,7 +162,7 @@
     "name": "Warlock",
     "team": "townsfolk",
     "ability": "You are mad about not being the warlock. The Demon knows who you are. When you are killed, the next Demon kill does not happen, including a delayed kill.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQTaDaZxPU2AS7Q49jx46-fYAVvaZ4pDocF4_DRDhj8Tqiw?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/warlock.png",
     "reminders": [
       "Known to Demon",
       "Next Demon kill blocked"
@@ -176,7 +176,7 @@
     "name": "Wizard",
     "team": "townsfolk",
     "ability": "On the first night, choose 1 Arcane spell to memorize. You may cast it once per game on any night other than the first unless otherwise specified.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRAR1VqKmfEQaxAkqGHisKHAe8KYSZwSb5WbgAUCtiN09c?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/wizard.png",
     "reminders": [
       "Stop Time",
       "Seeming",
@@ -197,7 +197,7 @@
     "name": "Sorcerer",
     "team": "townsfolk",
     "ability": "You start with 1 Arcane spell given by the Storyteller. Once per game, you may cast it, even when dead.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ3raPjM3WLQKgS_psAAuwvASAYUZvTIjWJiZRWHe9OvJo?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/sorcerer.png",
     "reminders": [
       "Advance Time",
       "Seeming",
@@ -218,7 +218,7 @@
     "name": "Hunter",
     "team": "townsfolk",
     "ability": "Each night choose a player. If that player nominates you the next day, you learn their alignment at night. You lose this ability once it's used.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRzvlnWKZxvRoESDPNkBxLMAaVYSPNEEsJhKELWX5Nc5RI?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/hunter.png",
     "firstNight": 160,
     "otherNight": 160,
     "reminders": [
@@ -234,7 +234,7 @@
     "name": "Rogue",
     "team": "townsfolk",
     "ability": "One time at night, you may kill someone. If they are good, you die as well.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQTiCU-WFb3xSJn9-3ouwMvdAdLMz3l7nhIXIgLQDOjpmVw?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/rogue.png",
     "reminders": [
       "Ability used",
       "Rogue target"
@@ -249,7 +249,7 @@
     "name": "Golem",
     "team": "outsider",
     "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRRFWcDNN3fTaUHgZ-11hRLAVFraCqVTmsy8b0qOtxvnpM?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/golem.png",
     "reminders": [
       "Nomination used"
     ],
@@ -261,7 +261,7 @@
     "name": "Unicorn",
     "team": "outsider",
     "ability": "You can only be killed by a good player or executed when the nominator is a good player.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQLzYDnabuPTLhn8amE-aLMASpuruIEsGUn8jiS5z_19Ks?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/unicorn.png",
     "firstNight": 0,
     "otherNight": 0
   },
@@ -270,7 +270,7 @@
     "name": "Elemental",
     "team": "outsider",
     "ability": "Once per game a player may die.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRUF2PH15lxQpPoKzIAJVnmAbNa96sCPuWVNONG279TNco?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/elemental.png",
     "reminders": [
       "Random death used",
       "Random death victim"
@@ -285,7 +285,7 @@
     "name": "Sprite",
     "team": "outsider",
     "ability": "On the first night after you are killed, any number of players will have their roles and alignments swapped with each other. Spent abilities remain spent. Unspent abilities can be used by their new owner.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQVz_J1t40JQ7jKD3GOXDIaATF2w8AQtNakmF4PNv3S8yA?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/sprite.png",
     "reminders": [
       "Just Killed",
       "Swapped Roles (A)",
@@ -302,7 +302,7 @@
     "name": "Ettin",
     "team": "minion",
     "ability": "Each night except the first, you may choose a living player (not the Demon) to eat: they are dead, but not killed. They will be regurgitated on the following night. You may not eat the same player 2 days in a row.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSjYPihiB5TQIPAzyYKBmRzATkP3ip7uWw6QctJVnQe4o0?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/ettin.png",
     "reminders": [
       "Regurgitated",
       "Eaten"
@@ -316,7 +316,7 @@
     "name": "Succubus",
     "team": "minion",
     "ability": "On the first night, choose a good player. Each night after the first, you may tell that player who they are mad about having to nominate that day. They must make a convincing case.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQJjpexmNAoT5T7bGFqVh-gAQEydqNmLMl_t4qJu2RFYXc?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/succubus.png",
     "reminders": [
       "Succubus-charmed",
       "Required nominee"
@@ -331,7 +331,7 @@
     "name": "Revenant",
     "team": "minion",
     "ability": "Each night* while dead, you may possess a living player. They are silenced and you gain their character ability until the end of the next day. If your current host is executed while possessed, you permanently lose this ability. You cannot possess the same player 2 days in a row.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSxcyvN-YXET4ppTeXfCauLAfuiZxMqN_QNFYcDz9G5tfs?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/revenant.png",
     "reminders": [
       "Possessed (Revenant)",
       "Silenced (Revenant)",
@@ -348,7 +348,7 @@
     "name": "Doppelganger",
     "team": "minion",
     "ability": "On the second night, choose a player. If they are a good player, you gain that player's character ability and register as that character, but remain evil. You get your own fresh use of the character's abilities except first night abilities which give no benefit.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRd3IYsHbi9TL7FGnLlrZJvAU1HLqzYJZcVE5fCXD0nNmg?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/doppelganger.png",
     "reminders": [
       "Copied good player",
       "Copied ability",
@@ -363,7 +363,7 @@
     "name": "Beholder",
     "team": "demon",
     "ability": "Each night*, you may choose a player to become silenced, feral, or poisoned. The following night they die. Each time a minion is killed, you will lose a status effect that you could place on a kill. +1 outsider.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSauWzeUYiARqvwHGq9Fg_nAfWWWHLSH6bhJ_NG-Rv0P_w?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/beholder.png",
     "reminders": [
       "Dies next night",
       "Feral (Beholder)",
@@ -382,7 +382,7 @@
     "name": "Dragon",
     "team": "demon",
     "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSomZUfVp7SR6PSDYhKOn8LAWt_M3zrnONVtzmW4NquuyM?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/dragon.png",
     "reminders": [
       "Skipped last night",
       "Target 1",
@@ -398,7 +398,7 @@
     "name": "Lich",
     "team": "demon",
     "ability": "On the first night, choose an evil player to hold your phylactery.  Each night, the holder may transfer it to another evil player. You die if its current holder dies. Each night, choose a player to kill.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRwa_ZfHJz0SqNN2BlBGdGDAcfcqHqQlib2_f1jLwx41d0?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/lich.png",
     "reminders": [
       "Phylactery holder",
       "Transfer offered"
@@ -413,7 +413,7 @@
     "name": "Vampire",
     "team": "demon",
     "ability": "Each night, choose a player to bite: they become poisoned. On the following night, they will die or become evil and feral. Evil wins if no good players are left.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQR-KH94ROrSq-sUWSwDZmxAQdIbdkxfjzIJsznLmNNlmo?width=591&height=591",
+    "image": "https://philipber99.github.io/botc/icons/vampire.png",
     "reminders": [
       "Bite resolves next night",
       "Poisoned",
@@ -430,7 +430,7 @@
     "name": "Divine: Silence",
     "team": "fabled",
     "ability": "During the night, pick a player. That player and both neighbouring players are silenced until the end of the day. Being on the stand temporarily dispels silence on the nominated player during their defense.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQT0yrucV0ldR4BbF_EaJXO4Ack52RtE8HSM1bkQ0zGTe0A",
+    "image": "https://philipber99.github.io/botc/icons/silence.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": []
@@ -440,7 +440,7 @@
     "name": "Divine: Restoration",
     "team": "fabled",
     "ability": "During the night, pick a player. You remove the silenced, feral, and poisoned status effects from that player. That player can not gain those status effects until the end of the next day. This permenantly dispels ongoing feral effects from Barbarian and Druid resurrection.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ4nA-riQ85QaXFSRSqvWSyAVQAz82hucKyYDA8mhkz4dk",
+    "image": "https://philipber99.github.io/botc/icons/restoration.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": []
@@ -450,7 +450,7 @@
     "name": "Divine: Divination",
     "team": "fabled",
     "ability": "During the night, pick 3 characters. You will be told how many of those characters are currently in the game.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQLi_XZtzNaQ6GEW6tn7InKAZIC9SYx-y7TWg6GKdKxFl8",
+    "image": "https://philipber99.github.io/botc/icons/divination.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": []
@@ -460,7 +460,7 @@
     "name": "Arcane: Advance Time",
     "team": "fabled",
     "ability": "Just after the night phase starts, you immediately end the night. Delayed kills and effects from powers activated prior to this night will still activate.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSLu9u0_nlbSq0i6FP-nSVSAWnyu899F5dLlg-buThax-o",
+    "image": "https://philipber99.github.io/botc/icons/advance_time.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": []
@@ -470,7 +470,7 @@
     "name": "Arcane: Seeming",
     "team": "fabled",
     "ability": "Must be cast on the first night. When the demon is told who their minions are, you are presented as a minion in place of another. Your alignment and character does not change.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ2n9danMrESJLlePMh-EnPAYG-YNpjh5V6jp10DSeygVY",
+    "image": "https://philipber99.github.io/botc/icons/seeming.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": []
@@ -480,7 +480,7 @@
     "name": "Divine: Detect Magic",
     "team": "fabled",
     "ability": "Cast at night. You will be told what status effects are on you and your neighbors (poisoned, feral, silenced).",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRM0-3T8aGdSbALVHaZ1PodAdJecXoj2HmnsYHfpTD0DFo",
+    "image": "https://philipber99.github.io/botc/icons/detect_magic.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": []
@@ -490,7 +490,7 @@
     "name": "Condition: Silenced",
     "team": "fabled",
     "ability": "You may not talk. Miming and writing is OK but you can not make any sound. You can not cast spells. You may die if you break silence. Silence is removed at the end of the day.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQT0HMTTB1BIS72nzhTe5-LrAV3YUk2ccoH_R_EoogQQ33I",
+    "image": "https://philipber99.github.io/botc/icons/silenced.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],
@@ -503,7 +503,7 @@
     "name": "Condition: Feral",
     "team": "fabled",
     "ability": "You must vote to execute on every vote until someone is executed. This can span across days (unless you are the Barbarian). You may die if you do not vote appropriately when Feral. Dead players lose this status effect.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ5SIh-j7NhSbIxExD_vRKmAbfwQh7pTfoeZQg1xnmL2Xo",
+    "image": "https://philipber99.github.io/botc/icons/feral.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],
@@ -516,7 +516,7 @@
     "name": "Condition: Poisoned",
     "team": "fabled",
     "ability": "Your abilities will not work as intended. Spells are likely to fail.",
-    "image": "https://1drv.ms/i/c/9338706e82e77998/IQTksTI5xYeNRYT3ev3kfefQAU7K-FFZYiDZGx4-Qp_aiZ0",
+    "image": "https://philipber99.github.io/botc/icons/poisoned.png",
     "firstNight": 0,
     "otherNight": 0,
     "reminders": [],
