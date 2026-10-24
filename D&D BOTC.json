@@ -1,0 +1,527 @@
+[
+  {
+    "id": "_meta",
+    "name": "D&D",
+    "author": "LA Road Warrior",
+    "firstNight": [
+      "dusk",
+      "minioninfo",
+      "demoninfo",
+      "warlock",
+      "revenant",
+      "cleric",
+      "dndwizard",
+      "sorcerer",
+      "succubus",
+      "vampire",
+      "bard",
+      "lich",
+      "rogue",
+      "druid",
+      "hunter",
+      "elemental",
+      "sprite",
+      "dawn"
+    ],
+    "otherNight": [
+      "dusk",
+      "revenant",
+      "doppelganger",
+      "cleric",
+      "dndwizard",
+      "sorcerer",
+      "succubus",
+      "ettin",
+      "paladin",
+      "dndmonk",
+      "beholder",
+      "vampire",
+      "lich",
+      "dragon",
+      "rogue",
+      "druid",
+      "hunter",
+      "bard",
+      "elemental",
+      "sprite",
+      "dawn"
+    ],
+    "almanac": "https://1drv.ms/x/c/9338706e82e77998/IQC2UnQn9cQfSKVr8ewL5p2BAbFyUUazimbWCmZHOiE47OE?e=zIL1aO"
+  },
+  {
+    "id": "fighter",
+    "name": "Fighter",
+    "team": "townsfolk",
+    "ability": "Once per round, you can challenge a player to ro-sham-bo. If the loser is good aligned, they might die that night. If they are evil, they will not get to use their power that night.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQA4M23asqdRb12_UJJfp4AAQrnbToM_xB7McZQj45sz3o?width=591&height=591",
+    "reminders": [
+        "fight lost",
+        "no wake (fight lost)"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "otherNightReminder": "Check if a player has the fight lost marker. If they do, you may kill them if they are good or they are not woken up on this night if they are evil."
+  },
+  {
+    "id": "barbarian",
+    "name": "Barbarian",
+    "team": "townsfolk",
+    "ability": "Each day, when a player is successfully voted for execution, you become feral until the end of the day. If you are nominated by a good player while feral, they are executed and you are no longer feral.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSiFxRVRCyjSr5G5zxY8MHjAfPGmjfyW5oHihHUvBuagKs",
+    "reminders": [
+      "Feral (Barbarian; day)"
+    ],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "bard",
+    "name": "Bard",
+    "team": "townsfolk",
+    "ability": "You start knowing one in-play Townsfolk character. If you remain mad that you are that character, without claiming to be another character, you gain that player's ability when they die.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSJvbp3yZHtSKWk-ntmyp3yAWkmfD533_arw_zTBMh7vHY?width=591&height=591",
+    "reminders": [
+      "Bard target",
+      "Madness broken",
+      "Ability gained"
+    ],
+    "firstNight": 115,
+    "otherNight": 165,
+    "firstNightReminder": "Wake Bard; show one in-play Townsfolk character (false information if poisoned), and mark its player as Bard target. Bard must be mad that THEY ARE THE SHOWN ROLE, not Bard; claiming any other role before the target dies disqualifies them. Track Madness broken persistently; check gain when target dies.",
+    "otherNightReminder": "Check if Bard target died at any time since the last checkpoint. If Bard has not claimed another character and the ability functions, mark Ability gained and resolve copied ability at its proper time. A claim of a different character before the target death blocks the gain. Check immediately on daytime deaths too."
+  },
+  {
+    "id": "cleric",
+    "name": "Cleric",
+    "team": "townsfolk",
+    "ability": "You can cast 1 Divine spell per game at the time allowed by that spell. If you start the game next to any minions, one of those minions will know that one of their neighbors is the Cleric.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRIUThwN7XYSrebK41Pl5S5AQncnKvY_d-IQMqDekwW1Mw?width=591&height=591",
+    "reminders": [
+      "Silence",
+      "Restoration",
+      "Divination",
+      "Spell used",
+      "Silence target",
+      "Silenced (left)",
+      "Silenced (target)",
+      "Silenced (right)",
+      "Silence expires",
+      "Restoration (immune)"
+    ],
+    "firstNight": 35,
+    "otherNight": 35,
+    "firstNightReminder": "Wake Cleric; they may choose one Divine spell to cast. Wake one of any minions sitting next to the cleric: let them know one of their neighbors is a cleric.",
+    "otherNightReminder": "Check if a player has Restoration (immune) marker and remove it. Only if Cleric has an unused NIGHT spell, wake and offer to cast. Silence: choose target and both neighbors; track spell silence through the upcoming day, with on-stand exception. Restoration: clear all status effects on target player; give the Restoration target status. Consume use even when poisoned. Divination: have the player indicate 3 different character roles. Tell the player how many of those character roles are in play."
+  },
+  {
+    "id": "druid",
+    "name": "Druid",
+    "team": "townsfolk",
+    "ability": "Once per game at night, you can resurrect a dead player. They are feral for the remainder of the game (unless dispelled).",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ4sbtmKwDrQpy2C-D1z_U1AcXpiO0Q2O1eKzsSGKIy9Ko?width=591&height=591",
+    "reminders": [
+      "Ability used",
+      "Resurrected",
+      "Feral (Druid)"
+    ],
+    "firstNight": 150,
+    "otherNight": 150,
+    "firstNightReminder": "If unused and a dead player is available, wake the Druid; they may resurrect a dead player, who becomes feral. Mark Ability used, Resurrected and Feral (Druid). Clear feral on an execution or the affected player's death.",
+    "otherNightReminder": "If unused and a dead player is available, wake the Druid; they may resurrect a dead player, who becomes feral. Mark Ability used, Resurrected and Feral (Druid). Clear feral on an execution or the affected player's death."
+  },
+  {
+    "id": "dndmonk",
+    "name": "Monk",
+    "team": "townsfolk",
+    "ability": "Each night*,  choose a player (not yourself): they can not be targetted by a Demon ability tonight. This does not stop delayed effects from occurring.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRgdlloCH8zT4qGcKVgm1_dAX7P07aIPdtACL3pl9Nw_1A?width=591&height=591",
+    "reminders": [
+      "monk-protected"
+    ],
+    "firstNight": 0,
+    "otherNight": 90,
+    "otherNightReminder": "Wake the Monk. They choose a player other than themselves, who is safe from the Demon tonight. Replace the old protection marker and clear it at dawn."
+  },
+  {
+    "id": "paladin",
+    "name": "Paladin",
+    "team": "townsfolk",
+    "ability": "On the second night, choose a player to protect for the rest of the game. If they would die, you die instead and learn their alignment that night.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRmUzUDW28gTpIRiRtSZwPkAQFaBne3MWNraWHabBWZU8M?width=591&height=591",
+    "reminders": [
+      "paladin-protected",
+      "Alignment due",
+      "Paladin sacrificed"
+    ],
+    "firstNight": 0,
+    "otherNight": 80,
+    "otherNightReminder": "On NIGHT 2, wake Paladin to choose a permanent protected player. If a death would actually occur and Paladin is not poisoned, Paladin dies instead: mark Alignment due and reveal the protected player's alignment that night, even to a dead Paladin (false if poisoned when information is given). If Paladin is poisoned, no substitution; if no death needed preventing, no information. Recheck after later night kills."
+  },
+  {
+    "id": "warlock",
+    "name": "Warlock",
+    "team": "townsfolk",
+    "ability": "You are mad about not being the warlock. The Demon knows who you are. When you are killed, the next Demon kill does not happen, including a delayed kill.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQTaDaZxPU2AS7Q49jx46-fYAVvaZ4pDocF4_DRDhj8Tqiw?width=591&height=591",
+    "reminders": [
+      "Known to Demon",
+      "Next Demon kill blocked"
+    ],
+    "firstNight": 15,
+    "otherNight": 0,
+    "firstNightReminder": "Wake the Demon (not the Warlock) and identify the Warlock. When an active Warlock ability triggers on being killed, place Next Demon kill blocked. It persists across days/nights until the NEXT attempted Demon kill, including a delayed kill; prevent that one kill and consume the marker. Merely biting or applying a status is not a kill."
+  },
+  {
+    "id": "dndwizard",
+    "name": "Wizard",
+    "team": "townsfolk",
+    "ability": "On the first night, choose 1 Arcane spell to memorize. You may cast it once per game on any night other than the first unless otherwise specified.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRAR1VqKmfEQaxAkqGHisKHAe8KYSZwSb5WbgAUCtiN09c?width=591&height=591",
+    "reminders": [
+      "Stop Time",
+      "Seeming",
+      "Dispel Magic",
+      "Spell Cast",
+      "Fooled by Wizard",
+      "Minion not revealed to demon",
+      "Dispelled by Wizard",
+      "All statuses removed"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "Wake Wizard; choose one Arcane spell. They may only cast Seeming. If Seeming is cast, mark demon with seeming and make sure they are substituted with a minion when pointing out minions to the demon.",
+    "otherNightReminder": "Only if Wizard has an unused NIGHT spell (Advance Time, Dispel Magic), wake and offer to cast. Advance Time: immediately end the night. Dispel Magic: remove ALL three statuses from one player, not pending kills/bites. Consume use even if poisoned. Check if any characters were dispelled the previous night and remove those markers."
+  },
+  {
+    "id": "sorcerer",
+    "name": "Sorcerer",
+    "team": "townsfolk",
+    "ability": "You start with 1 Arcane spell given by the Storyteller. Once per game, you may cast it, even when dead.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ3raPjM3WLQKgS_psAAuwvASAYUZvTIjWJiZRWHe9OvJo?width=591&height=591",
+    "reminders": [
+      "Advance Time",
+      "Seeming",
+      "Detect Magic",
+      "Spell Cast",
+      "Fooled by Sorcerer",
+      "Dispelled by Sorcerer",
+      "Minion not revealed to demon",
+      "All statuses removed"
+    ],
+    "firstNight": 50,
+    "otherNight": 50,
+    "firstNightReminder": "Wake Sorcerer; give one Arcane spell chosen by ST.",
+    "otherNightReminder": "Only if Sorcerer has an unused NIGHT spell (Advance Time, Detact Magic), wake and offer to cast. Advance Time: immediately end the night. Detect Magic: tell them what status effects are on their neighbors and themselves. Consume use even if poisoned. Check if any characters were dispelled the previous night and remove those markers."
+  },
+  {
+    "id": "hunter",
+    "name": "Hunter",
+    "team": "townsfolk",
+    "ability": "Each night choose a player. If that player nominates you the next day, you learn their alignment at night. You lose this ability once it's used.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRzvlnWKZxvRoESDPNkBxLMAaVYSPNEEsJhKELWX5Nc5RI?width=591&height=591",
+    "firstNight": 160,
+    "otherNight": 160,
+    "reminders": [
+      "Ability used",
+      "Was Nominated",
+      "Trap Set"
+    ],
+    "firstNightReminder": "Ask them to choose a player. Mark them as Trap Set.",
+    "otherNightReminder": "If they have the Was Nominated status, tell them the alignment of the player with the Trap Set marker. Clear Trap Set and Was Nominated, set Ability Used. If Ability Used is not set, ask them to choose a player. Mark the player as Trap Set. "
+  },
+  {
+    "id": "rogue",
+    "name": "Rogue",
+    "team": "townsfolk",
+    "ability": "One time at night, you may kill someone. If they are good, you die as well.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQTiCU-WFb3xSJn9-3ouwMvdAdLMz3l7nhIXIgLQDOjpmVw?width=591&height=591",
+    "reminders": [
+      "Ability used",
+      "Rogue target"
+    ],
+    "firstNight": 140,
+    "otherNight": 140,
+    "firstNightReminder": "If unused, wake Rogue; they may choose someone to kill. Mark Ability used and target if they do. If the target is good, Rogue also dies. Apply protections/substitutions and check Lich phylactery or Paladin consequences.",
+    "otherNightReminder": "If unused, wake Rogue; they may choose someone to kill. Mark Ability used and target if they do. If the target is good, Rogue also dies. Apply protections/substitutions and check Lich phylactery or Paladin consequences."
+  },
+  {
+    "id": "dndgolem",
+    "name": "Golem",
+    "team": "outsider",
+    "ability": "You may only nominate once per game. When you do, if the nominee is not the Demon, they die.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRRFWcDNN3fTaUHgZ-11hRLAVFraCqVTmsy8b0qOtxvnpM?width=591&height=591",
+    "reminders": [
+      "Nomination used"
+    ],
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "unicorn",
+    "name": "Unicorn",
+    "team": "outsider",
+    "ability": "You can only be killed by a good player or executed when the nominator is a good player.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQLzYDnabuPTLhn8amE-aLMASpuruIEsGUn8jiS5z_19Ks?width=591&height=591",
+    "firstNight": 0,
+    "otherNight": 0
+  },
+  {
+    "id": "elemental",
+    "name": "Elemental",
+    "team": "outsider",
+    "ability": "Once per game a player may die.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRUF2PH15lxQpPoKzIAJVnmAbNa96sCPuWVNONG279TNco?width=591&height=591",
+    "reminders": [
+      "Random death used",
+      "Random death victim"
+    ],
+    "firstNight": 175,
+    "otherNight": 175,
+    "firstNightReminder": "Optional ST checkpoint: if unused, you may trigger Elemental now or at ANY daytime/nighttime moment. Select a player at random; resolve a possible death and protections. Mark Random death used only when triggered. This is once per game, not every night.",
+    "otherNightReminder": "Optional ST checkpoint: if unused, you may trigger Elemental now or at ANY daytime/nighttime moment. Select a player at random; resolve a possible death and protections. Mark Random death used only when triggered. This is once per game, not every night."
+  },
+  {
+    "id": "sprite",
+    "name": "Sprite",
+    "team": "outsider",
+    "ability": "On the first night after you are killed, any number of players will have their roles and alignments swapped with each other. Spent abilities remain spent. Unspent abilities can be used by their new owner.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQVz_J1t40JQ7jKD3GOXDIaATF2w8AQtNakmF4PNv3S8yA?width=591&height=591",
+    "reminders": [
+      "Just Killed",
+      "Swapped Roles (A)",
+      "Swapped Roles (B)",
+      "Swapped Roles (C)",
+      "Swapped Roles (D)"
+    ],
+    "firstNight": 180,
+    "otherNight": 180,
+    "otherNightReminder": "If the Sprite has the Just Killed status, wake the player up and ask them to choose 4 players. Swap the roles of those 4 players: wake each player up to inform them. Remove the Just Killed status."
+  },
+  {
+    "id": "ettin",
+    "name": "Ettin",
+    "team": "minion",
+    "ability": "Each night except the first, you may choose a living player (not the Demon) to eat: they are dead, but not killed. They will be regurgitated on the following night. You may not eat the same player 2 days in a row.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSjYPihiB5TQIPAzyYKBmRzATkP3ip7uWw6QctJVnQe4o0?width=591&height=591",
+    "reminders": [
+      "Regurgitated",
+      "Eaten"
+    ],
+    "firstNight": 0,
+    "otherNight": 70,
+    "otherNightReminder": "Remove Regurgitated from all players. Change Eaten from players with this status to Regurgitated; unkill those players. Wake Ettin. They may eat one living non-Demon player: that player becomes dead, but is not killed. Mark that player as \"Eaten\" and dead."
+  },
+  {
+    "id": "succubus",
+    "name": "Succubus",
+    "team": "minion",
+    "ability": "On the first night, choose a good player. Each night after the first, you may tell that player who they are mad about having to nominate that day. They must make a convincing case.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQJjpexmNAoT5T7bGFqVh-gAQEydqNmLMl_t4qJu2RFYXc?width=591&height=591",
+    "reminders": [
+      "Succubus-charmed",
+      "Required nominee"
+    ],
+    "firstNight": 60,
+    "otherNight": 60,
+    "firstNightReminder": "Wake Succubus to choose a good player. Mark succubus-charmed. The identity persists until the relevant ability ceases.",
+    "otherNightReminder": "Wake Succubus. They may name the player their chosen good player must be mad about needing to nominate today. Mark Required nominee, wake the charmed player and communicate it. Clear the daily nominee reminder at day end; retain charmed target."
+  },
+  {
+    "id": "revenant",
+    "name": "Revenant",
+    "team": "minion",
+    "ability": "Each night* while dead, you may possess a living player. They are silenced and you gain their character ability until the end of the next day. If your current host is executed while possessed, you permanently lose this ability. You cannot possess the same player 2 days in a row.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSxcyvN-YXET4ppTeXfCauLAfuiZxMqN_QNFYcDz9G5tfs?width=591&height=591",
+    "reminders": [
+      "Possessed (Revenant)",
+      "Silenced (Revenant)",
+      "Power lost",
+      "Last Host (Revenant)"
+    ],
+    "firstNight": 0,
+    "otherNight": 0,
+    "firstNightReminder": "",
+    "otherNightReminder": "Remove Last Host (revenant) markers from all players. Clear the Possessed and Silenced (Revenant) marker from all players, adding Last Host instead. This happens even if the Revenant will not be woken up. Only if Revenant is dead and their power remains: wake them to choose a living host other than the previous day's host. Mark Possessed and that they are Silenced (Revenant); show Revenant the target's character token. They may use their ability if unspent. Execution of the current host loses the Revenant's power; a former host's execution does not. Recheck if Revenant dies later tonight. Any players with the Possessed effect can not use their powers."
+  },
+  {
+    "id": "doppelganger",
+    "name": "Doppelganger",
+    "team": "minion",
+    "ability": "On the second night, choose a player. If they are a good player, you gain that player's character ability and register as that character, but remain evil. You get your own fresh use of the character's abilities except first night abilities which give no benefit.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRd3IYsHbi9TL7FGnLlrZJvAU1HLqzYJZcVE5fCXD0nNmg?width=591&height=591",
+    "reminders": [
+      "Copied good player",
+      "Copied ability",
+      "Copied use spent"
+    ],
+    "firstNight": 0,
+    "otherNight": 30,
+    "otherNightReminder": "On NIGHT 2 only, wake Doppelganger to choose a good player; mark copied player and character. They remain evil but register as the chosen character. They gain a FRESH copy of that ability even if its owner's use was spent; track their own use. Start-only powers give no benefit. Check later night timing of any copied ability."
+  },
+  {
+    "id": "beholder",
+    "name": "Beholder",
+    "team": "demon",
+    "ability": "Each night*, you may choose a player to become silenced, feral, or poisoned. The following night they die. Each time a minion is killed, you will lose a status effect that you could place on a kill. +1 outsider.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSauWzeUYiARqvwHGq9Fg_nAfWWWHLSH6bhJ_NG-Rv0P_w?width=591&height=591",
+    "reminders": [
+      "Dies next night",
+      "Feral (Beholder)",
+      "Poisoned (Beholder)",
+      "Silenced (Beholder)",
+      "No Feral",
+      "No Silenced",
+      "No Poisoned"
+    ],
+    "firstNight": 0,
+    "otherNight": 100,
+    "otherNightReminder": "If Beholder is poisoned, it can not use its ability but any pending kills will still happen. Check Warlock block of next kill. Clear the \"Dies next night\" marker on any players and mark them as killed. If victim survives, retain any status effects on them. Wake Beholder for it's next kill. Follow ordinary Demon-death game-end rules."
+  },
+  {
+    "id": "dragon",
+    "name": "Dragon",
+    "team": "demon",
+    "ability": "Each night*, you may choose a player: they die. If your last choice was no-one, choose 3 players tonight.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSomZUfVp7SR6PSDYhKOn8LAWt_M3zrnONVtzmW4NquuyM?width=591&height=591",
+    "reminders": [
+      "Skipped last night",
+      "Target 1",
+      "Target 2",
+      "Target 3"
+    ],
+    "firstNight": 0,
+    "otherNight": 130,
+    "otherNightReminder": "Wake Dragon. If the last ACTUAL choice was nobody, choose three victims; otherwise choose one or nobody. Resolve each Demon-caused kill individually: an unused Warlock block prevents the next one, even in a multi-kill sequence. Apply defenses. Mark Skipped last night only if Dragon selected nobody, not if a chosen victim survived."
+  },
+  {
+    "id": "lich",
+    "name": "Lich",
+    "team": "demon",
+    "ability": "On the first night, choose an evil player to hold your phylactery.  Each night, the holder may transfer it to another evil player. You die if its current holder dies. Each night, choose a player to kill.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRwa_ZfHJz0SqNN2BlBGdGDAcfcqHqQlib2_f1jLwx41d0?width=591&height=591",
+    "reminders": [
+      "Phylactery holder",
+      "Transfer offered"
+    ],
+    "firstNight": 120,
+    "otherNight": 120,
+    "firstNightReminder": "Wake Lich to choose any evil phylactery holder, including themself. Mark the holder. Wake the holder to offer a night transfer to another evil player (optional), moving the marker if accepted. Wake Lich for an optional kill. If the current holder dies, the Lich dies too. Apply Warlock next-kill block when a Demon kill would occur.",
+    "otherNightReminder": "Wake the current phylactery holder, even if this is the Lich; offer an optional transfer to another evil player, moving the marker if accepted. Then wake the Lich for their optional kill. If the current holder dies, the Lich dies. Apply Warlock next-kill block to the next Demon-caused kill. Clear Transfer offered after this night."
+  },
+  {
+    "id": "vampire",
+    "name": "Vampire",
+    "team": "demon",
+    "ability": "Each night, choose a player to bite: they become poisoned. On the following night, they will die or become evil and feral. Evil wins if no good players are left.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQR-KH94ROrSq-sUWSwDZmxAQdIbdkxfjzIJsznLmNNlmo?width=591&height=591",
+    "reminders": [
+      "Bite resolves next night",
+      "Poisoned",
+      "Feral",
+      "Turned evil (Vampire)"
+    ],
+    "firstNight": 110,
+    "otherNight": 110,
+    "firstNightReminder": "Wake Vampire to bite a player; mark Poisoned (Vampire) and Bite resolves next night separately. Poison remains after resolution, unless dispelled. Note if the Vampire is poisoned and cannot use the ability.",
+    "otherNightReminder": "Resolve last night's bite: Storyteller chooses death OR evil+feral. Check Demon poisoning, protection and Warlock's next-kill block on death. Keep Vampire poison after resolution (also if turned evil), until dispelled. Mark conversion and feral separately. Clear old pending bite; wake Vampire to bite again and mark a NEW pending bite. Biting itself is not a kill."
+  },
+  {
+    "id": "dndspellsilence",
+    "name": "Divine: Silence",
+    "team": "fabled",
+    "ability": "During the night, pick a player. That player and both neighbouring players are silenced until the end of the day. Being on the stand temporarily dispels silence on the nominated player during their defense.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQT0yrucV0ldR4BbF_EaJXO4Ack52RtE8HSM1bkQ0zGTe0A",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": []
+  },
+  {
+    "id": "dndspellrestoration",
+    "name": "Divine: Restoration",
+    "team": "fabled",
+    "ability": "During the night, pick a player. You remove the silenced, feral, and poisoned status effects from that player. That player can not gain those status effects until the end of the next day. This permenantly dispels ongoing feral effects from Barbarian and Druid resurrection.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ4nA-riQ85QaXFSRSqvWSyAVQAz82hucKyYDA8mhkz4dk",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": []
+  },  
+  {
+    "id": "dndspelldivination",
+    "name": "Divine: Divination",
+    "team": "fabled",
+    "ability": "During the night, pick 3 characters. You will be told how many of those characters are currently in the game.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQLi_XZtzNaQ6GEW6tn7InKAZIC9SYx-y7TWg6GKdKxFl8",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": []
+  },
+  {
+    "id": "dndspellstoptime",
+    "name": "Arcane: Advance Time",
+    "team": "fabled",
+    "ability": "Just after the night phase starts, you immediately end the night. Delayed kills and effects from powers activated prior to this night will still activate.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQSLu9u0_nlbSq0i6FP-nSVSAWnyu899F5dLlg-buThax-o",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": []
+  },
+  {
+    "id": "dndspellseeming",
+    "name": "Arcane: Seeming",
+    "team": "fabled",
+    "ability": "Must be cast on the first night. When the demon is told who their minions are, you are presented as a minion in place of another. Your alignment and character does not change.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ2n9danMrESJLlePMh-EnPAYG-YNpjh5V6jp10DSeygVY",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": []
+  },
+  {
+    "id": "dndspelldetectmagict",
+    "name": "Divine: Detect Magic",
+    "team": "fabled",
+    "ability": "Cast at night. You will be told what status effects are on you and your neighbors (poisoned, feral, silenced).",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQRM0-3T8aGdSbALVHaZ1PodAdJecXoj2HmnsYHfpTD0DFo",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": []
+  },
+  {
+    "id": "cond_silenced",
+    "name": "Condition: Silenced",
+    "team": "fabled",
+    "ability": "You may not talk. Miming and writing is OK but you can not make any sound. You can not cast spells. You may die if you break silence. Silence is removed at the end of the day.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQT0HMTTB1BIS72nzhTe5-LrAV3YUk2ccoH_R_EoogQQ33I",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "remindersGlobal": [
+        "Silenced"
+    ]
+  },
+  {
+    "id": "cond_feral",
+    "name": "Condition: Feral",
+    "team": "fabled",
+    "ability": "You must vote to execute on every vote until someone is executed. This can span across days (unless you are the Barbarian). You may die if you do not vote appropriately when Feral. Dead players lose this status effect.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQQ5SIh-j7NhSbIxExD_vRKmAbfwQh7pTfoeZQg1xnmL2Xo",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "remindersGlobal": [
+        "Feral"   
+    ]
+  },
+  {
+    "id": "cond_poisoned",
+    "name": "Condition: Poisoned",
+    "team": "fabled",
+    "ability": "Your abilities will not work as intended. Spells are likely to fail.",
+    "image": "https://1drv.ms/i/c/9338706e82e77998/IQTksTI5xYeNRYT3ev3kfefQAU7K-FFZYiDZGx4-Qp_aiZ0",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "remindersGlobal": [
+        "Poisoned"      
+    ]
+  }
+]
