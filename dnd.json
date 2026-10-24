@@ -477,7 +477,7 @@
   },
   {
     "id": "dndspelldetectmagict",
-    "name": "Divine: Detect Magic",
+    "name": "Arcane: Detect Magic",
     "team": "fabled",
     "ability": "Cast at night. You will be told what status effects are on you and your neighbors (poisoned, feral, silenced).",
     "image": "https://philipber99.github.io/botc/icons/detect_magic.png",
