@@ -80,7 +80,7 @@
     "id": "bard",
     "name": "Bard",
     "team": "townsfolk",
-    "ability": "You start knowing one in-play Townsfolk character. If you remain mad that you are that character, without claiming to be another character, you gain that player's ability when they die.",
+    "ability": "On the first night you are shown 2 minion tokens. One of these minions is in play.",
     "image": "https://philipber99.github.io/botc/icons/bard.png",
     "reminders": [
       "Bard target",
@@ -89,8 +89,7 @@
     ],
     "firstNight": 115,
     "otherNight": 165,
-    "firstNightReminder": "Wake Bard; show one in-play Townsfolk character (false information if poisoned), and mark its player as Bard target. Bard must be mad that THEY ARE THE SHOWN ROLE, not Bard; claiming any other role before the target dies disqualifies them. Track Madness broken persistently; check gain when target dies.",
-    "otherNightReminder": "Check if Bard target died at any time since the last checkpoint. If Bard has not claimed another character and the ability functions, mark Ability gained and resolve copied ability at its proper time. A claim of a different character before the target death blocks the gain. Check immediately on daytime deaths too."
+    "firstNightReminder": "Wake Bard; show 2 minion tokens, one of which is in play.",
   },
   {
     "id": "cleric",
@@ -135,7 +134,7 @@
     "id": "dndmonk",
     "name": "Monk",
     "team": "townsfolk",
-    "ability": "Each night*,  choose a player (not yourself): they can not be targetted by a Demon ability tonight. This does not stop delayed effects from occurring.",
+    "ability": "Each night*, choose a player (not yourself): they can not be targetted by a Demon ability tonight. This does not stop delayed effects from occurring.",
     "image": "https://philipber99.github.io/botc/icons/monk.png",
     "reminders": [
       "monk-protected"
