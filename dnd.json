@@ -259,7 +259,7 @@
     "id": "unicorn",
     "name": "Unicorn",
     "team": "outsider",
-    "ability": "You can only be killed by a good player or executed when the nominator is a good player.",
+    "ability": "You can only be killed by a townsfolk or executed when the nominator is a townsfolk.",
     "image": "https://philipber99.github.io/botc/icons/unicorn.png",
     "firstNight": 0,
     "otherNight": 0
