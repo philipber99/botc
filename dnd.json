@@ -218,17 +218,15 @@
     "id": "hunter",
     "name": "Hunter",
     "team": "townsfolk",
-    "ability": "Each night choose a player. If that player nominates you the next day, you learn their alignment at night. You lose this ability once it's used.",
+    "ability": "If you are executed, that night you learn the nominator's character.",
     "image": "https://philipber99.github.io/botc/icons/hunter.png",
     "firstNight": 160,
     "otherNight": 160,
     "reminders": [
-      "Ability used",
-      "Was Nominated",
-      "Trap Set"
+      "Nominated Hunter",
+      "Executed"
     ],
-    "firstNightReminder": "Ask them to choose a player. Mark them as Trap Set.",
-    "otherNightReminder": "If they have the Was Nominated status, tell them the alignment of the player with the Trap Set marker. Clear Trap Set and Was Nominated, set Ability Used. If Ability Used is not set, ask them to choose a player. Mark the player as Trap Set. "
+    "otherNightReminder": "If the Hunter has the Executed reminder, wake the hunter and tell them the character that nominated them for execution. Remove the Executed and Nominated Hunter reminders."
   },
   {
     "id": "rogue",
