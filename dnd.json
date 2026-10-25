@@ -66,13 +66,15 @@
     "id": "barbarian",
     "name": "Barbarian",
     "team": "townsfolk",
-    "ability": "Each day, when a player is successfully voted for execution, you become feral until the end of the day. If you are nominated by a good player while feral, they are executed and you are no longer feral.",
+    "ability": "Each night you become feral if a good player was executed on the previous day.",
     "image": "https://philipber99.github.io/botc/icons/barbarian.png",
     "reminders": [
-      "Feral (Barbarian; day)"
+      "Feral (Barbarian; day)",
+      "Good was executed"
     ],
     "firstNight": 0,
     "otherNight": 0
+    "otherNightReminder": "Check if good player was executed on the previous day. If so, wake the Barbarian and let them know they are feral."
   },
   {
     "id": "bard",
