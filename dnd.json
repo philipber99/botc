@@ -219,21 +219,20 @@
     "id": "hunter",
     "name": "Hunter",
     "team": "townsfolk",
-    "ability": "If you are executed, that night you learn the nominator's character.",
+    "ability": "If you are executed, pick a player. You learn their character.",
     "image": "https://philipber99.github.io/botc/icons/hunter.png",
     "firstNight": 160,
     "otherNight": 160,
     "reminders": [
-      "Nominated Hunter",
       "Executed"
     ],
-    "otherNightReminder": "If the Hunter has the Executed reminder, wake the hunter and tell them the character that nominated them for execution. Remove the Executed and Nominated Hunter reminders."
+    "otherNightReminder": "If the Hunter has the Executed reminder, wake the hunter and have them pick a player. Tell them the player's character. Remove the Executed reminder."
   },
   {
     "id": "rogue",
     "name": "Rogue",
     "team": "townsfolk",
-    "ability": "One time at night, you may kill someone. If they are good, you die as well.",
+    "ability": "One time at night except the first, you may kill someone. If they are a townsfolk, you die as well.",
     "image": "https://philipber99.github.io/botc/icons/rogue.png",
     "reminders": [
       "Ability used",
@@ -241,8 +240,8 @@
     ],
     "firstNight": 140,
     "otherNight": 140,
-    "firstNightReminder": "If unused, wake Rogue; they may choose someone to kill. Mark Ability used and target if they do. If the target is good, Rogue also dies. Apply protections/substitutions and check Lich phylactery or Paladin consequences.",
-    "otherNightReminder": "If unused, wake Rogue; they may choose someone to kill. Mark Ability used and target if they do. If the target is good, Rogue also dies. Apply protections/substitutions and check Lich phylactery or Paladin consequences."
+    "firstNightReminder": "",
+    "otherNightReminder": "If unused, wake Rogue; they may choose someone to kill. Mark Ability used and target if they do. If the target is a townsfolk, Rogue also dies. Apply protections/substitutions and check Lich phylactery or Paladin consequences."
   },
   {
     "id": "dndgolem",
@@ -362,7 +361,7 @@
     "id": "beholder",
     "name": "Beholder",
     "team": "demon",
-    "ability": "Each night*, you may choose a player to become silenced, feral, or poisoned. The following night they die. Each time a minion is killed, you will lose a status effect that you could place on a kill. +1 outsider.",
+    "ability": "Each night*, you may choose an alive player to become silenced, feral, or poisoned. The following night they die. Each time a minion is killed, you will lose a status effect that you could place on a kill. +1 outsider.",
     "image": "https://philipber99.github.io/botc/icons/beholder.png",
     "reminders": [
       "Dies next night",
@@ -439,7 +438,7 @@
     "id": "dndspellrestoration",
     "name": "Divine: Restoration",
     "team": "fabled",
-    "ability": "During the night, pick a player. You remove the silenced, feral, and poisoned status effects from that player. That player can not gain those status effects until the end of the next day. This permenantly dispels ongoing feral effects from Barbarian and Druid resurrection.",
+    "ability": "During the night, pick a player. You remove the silenced, feral, and poisoned status effects from that player. That player can not gain those status effects until the end of the next day. This permenantly dispels the ongoing feral effect from Druid resurrection.",
     "image": "https://philipber99.github.io/botc/icons/restoration.png",
     "firstNight": 0,
     "otherNight": 0,
