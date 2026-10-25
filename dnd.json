@@ -180,9 +180,9 @@
     "ability": "On the first night, choose 1 Arcane spell to memorize. You may cast it once per game on any night other than the first unless otherwise specified.",
     "image": "https://philipber99.github.io/botc/icons/wizard.png",
     "reminders": [
-      "Stop Time",
+      "Advance Time",
       "Seeming",
-      "Dispel Magic",
+      "Detect Magic",
       "Spell Cast",
       "Fooled by Wizard",
       "Minion not revealed to demon",
