@@ -80,7 +80,7 @@
     "id": "bard",
     "name": "Bard",
     "team": "townsfolk",
-    "ability": "On the first night you are shown 2 minion tokens. One of those minions is in play.",
+    "ability": "On the first night you are shown 2 minion tokens. One of these minions is in play.",
     "image": "https://philipber99.github.io/botc/icons/bard.png",
     "reminders": [
       "Bard target",
