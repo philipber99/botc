@@ -83,9 +83,10 @@
     "ability": "On the first night you are shown 2 minion tokens. One of those minions is in play.",
     "image": "https://philipber99.github.io/botc/icons/bard.png",
     "reminders": [
-      "Bard target",
-      "Madness broken",
-      "Ability gained"
+      "Shown Ettin",
+      "Shown Succubus",
+      "Shown Revenant",
+      "Shown Doppelganger"
     ],
     "firstNight": 115,
     "otherNight": 165,
