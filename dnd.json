@@ -73,7 +73,7 @@
       "Good was executed"
     ],
     "firstNight": 0,
-    "otherNight": 0
+    "otherNight": 0,
     "otherNightReminder": "Check if good player was executed on the previous day. If so, wake the Barbarian and let them know they are feral."
   },
   {
