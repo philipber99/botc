@@ -52,7 +52,7 @@
     "id": "fighter",
     "name": "Fighter",
     "team": "townsfolk",
-    "ability": "Once per round, you can challenge a player to ro-sham-bo. That night, if the loser is good they might die otherwise if they are evil they will not get to use their power that night.",
+    "ability": "Once per round, you can challenge a player to ro-sham-bo. That night, if the loser is good they might die otherwise if they are evil they will not get to use their power.",
     "image": "https://philipber99.github.io/botc/icons/fighter.png",
     "reminders": [
         "fight lost",
@@ -80,7 +80,7 @@
     "id": "bard",
     "name": "Bard",
     "team": "townsfolk",
-    "ability": "On the first night you are shown 2 minion tokens. One of these minions is in play.",
+    "ability": "On the first night you are shown 2 minion tokens. One of those minions is in play.",
     "image": "https://philipber99.github.io/botc/icons/bard.png",
     "reminders": [
       "Bard target",
