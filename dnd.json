@@ -52,7 +52,7 @@
     "id": "fighter",
     "name": "Fighter",
     "team": "townsfolk",
-    "ability": "Once per round, you can challenge a player to ro-sham-bo. If the loser is good aligned, they might die that night. If they are evil, they will not get to use their power that night.",
+    "ability": "Once per round, you can challenge a player to ro-sham-bo. That night, if the loser is good they might die, otherwise they will not get to use their power that night.",
     "image": "https://philipber99.github.io/botc/icons/fighter.png",
     "reminders": [
         "fight lost",
