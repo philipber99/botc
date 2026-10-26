@@ -283,7 +283,7 @@
     "id": "sprite",
     "name": "Sprite",
     "team": "outsider",
-    "ability": "On the first night after you are killed, any number of players will have their roles and alignments swapped with each other. Spent abilities remain spent. Unspent abilities can be used by their new owner.",
+    "ability": "If you are killed, on the next night any number of players will have their roles and alignments swapped. Spent abilities of swapped players are refreshed. The Sprite will know how many people swapped.",
     "image": "https://philipber99.github.io/botc/icons/sprite.png",
     "reminders": [
       "Just Killed",
@@ -294,7 +294,7 @@
     ],
     "firstNight": 180,
     "otherNight": 180,
-    "otherNightReminder": "If the Sprite has the Just Killed status, wake the player up and ask them to choose 4 players. Swap the roles of those 4 players: wake each player up to inform them. Remove the Just Killed status."
+    "otherNightReminder": "If the Sprite has the Just Killed status, tell the Sprite how many people will swap roles. Choose the players to swap roles/alignments. Refresh their powers."
   },
   {
     "id": "ettin",
