@@ -314,7 +314,7 @@
     "id": "succubus",
     "name": "Succubus",
     "team": "minion",
-    "ability": "On the first night, choose a good player. Each night after the first, you may tell that player who they are mad about having to nominate that day. They must make a convincing case.",
+    "ability": "On the first night, choose a good player. Each night after the first, you can make them mad for the next day about another player being evil. They must nominate them if possible.",
     "image": "https://philipber99.github.io/botc/icons/succubus.png",
     "reminders": [
       "Succubus-charmed",
