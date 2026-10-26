@@ -163,7 +163,7 @@
     "id": "warlock",
     "name": "Warlock",
     "team": "townsfolk",
-    "ability": "You are mad about not being the warlock. The Demon knows who you are. When you are killed, the next Demon kill does not happen, including a delayed kill.",
+    "ability": "The Demon knows who you are. If you are executed while mad that you are not the Warlock, the next kill that was the result of a Demon ability does not happen.",
     "image": "https://philipber99.github.io/botc/icons/warlock.png",
     "reminders": [
       "Known to Demon",
