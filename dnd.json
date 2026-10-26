@@ -329,7 +329,7 @@
     "id": "revenant",
     "name": "Revenant",
     "team": "minion",
-    "ability": "Each night* while dead, you may possess a living player. They are silenced and you gain their character ability until the end of the next day. If your current host is executed while possessed, you permanently lose this ability. You cannot possess the same player 2 days in a row.",
+    "ability": "Each night* while dead, you may possess a living good player. They are silenced and you gain their character ability until the end of the next day. If the possessed player is killed, you permanently lose this ability. You cannot possess the same player 2 days in a row.",
     "image": "https://philipber99.github.io/botc/icons/revenant.png",
     "reminders": [
       "Possessed (Revenant)",
