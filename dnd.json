@@ -219,14 +219,14 @@
     "id": "hunter",
     "name": "Hunter",
     "team": "townsfolk",
-    "ability": "If you are executed, pick a player. You learn their character.",
+    "ability": "If you are executed, pick a player. You learn their character and alignment.",
     "image": "https://philipber99.github.io/botc/icons/hunter.png",
     "firstNight": 160,
     "otherNight": 160,
     "reminders": [
       "Executed"
     ],
-    "otherNightReminder": "If the Hunter has the Executed reminder, wake the hunter and have them pick a player. Tell them the player's character. Remove the Executed reminder."
+    "otherNightReminder": "If the Hunter has the Executed reminder, wake the hunter and have them pick a player. Tell them the player's character and alignment. Remove the Executed reminder."
   },
   {
     "id": "rogue",
