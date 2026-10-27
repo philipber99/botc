@@ -374,7 +374,7 @@
     ],
     "firstNight": 0,
     "otherNight": 100,
-    "firstNightReminder": "Wake Beholder and ask it's next target and condition. Mark that target with the player's selected condition. Wake target and inform them if they are silenced or feral."
+    "firstNightReminder": "Wake Beholder and ask it's next target and condition. Mark that target with the player's selected condition. Wake target and inform them if they are silenced or feral.",
     "otherNightReminder": "Clear the \"Dies next night\" marker on any players and mark them as killed. If victim survives, retain any status effects on them. Wake Beholder and ask it's next target and condition. Check for conditions not available if minions were killed. Mark that target with the player's selected condition. Wake target and inform them if they are silenced or feral."
   },
   {
