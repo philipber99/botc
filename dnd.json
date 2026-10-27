@@ -163,7 +163,7 @@
     "id": "warlock",
     "name": "Warlock",
     "team": "townsfolk",
-    "ability": "The Demon knows who you are. If you are executed while mad that you are not the Warlock, the next kill that was the result of a Demon ability does not happen.",
+    "ability": "The Demon knows who you are. If you are killed while mad that you are not the Warlock, the next kill that was the result of a Demon ability does not happen.",
     "image": "https://philipber99.github.io/botc/icons/warlock.png",
     "reminders": [
       "Known to Demon",
@@ -283,7 +283,7 @@
     "id": "sprite",
     "name": "Sprite",
     "team": "outsider",
-    "ability": "If you are killed, on the next night any number of players will have their roles and alignments swapped. Spent abilities of swapped players may be refreshed. The Sprite will know how many people swapped.",
+    "ability": "If you are executed, on the next night any number of players will have their roles and alignments swapped. Spent abilities of swapped players may be refreshed. The Sprite will know how many people swapped.",
     "image": "https://philipber99.github.io/botc/icons/sprite.png",
     "reminders": [
       "Just Killed",
