@@ -524,5 +524,17 @@
     "remindersGlobal": [
         "Poisoned"      
     ]
+  },
+  {
+    "id": "active_wakeup",
+    "name": "Thumbs Up",
+    "team": "fabled",
+    "ability": "At night, all players must place their hands in front of them in a fist. If you have an optional ability (eg. Druid), you must stick your thumb up or you will not be woken up.",
+    "image": "https://philipber99.github.io/botc/icons/thumbs_up.png",
+    "firstNight": 0,
+    "otherNight": 0,
+    "reminders": [],
+    "remindersGlobal": [
+    ]
   }
 ]
