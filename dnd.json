@@ -315,7 +315,7 @@
     "id": "succubus",
     "name": "Succubus",
     "team": "minion",
-    "ability": "Each night, choose 2-4 players not chosen the previous night. During the discussion phase, they must leave the group and have a private discussion until nominations start. Anyone who does not may die. -1 outsiders.",
+    "ability": "Each night you may choose 2-4 players not chosen the previous night. During the discussion phase, they must leave the group and have a private discussion until nominations start. Anyone who does not may die. -1 outsiders.",
     "image": "https://philipber99.github.io/botc/icons/succubus.png",
     "reminders": [
       "Succubus-last charmed",
