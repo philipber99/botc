@@ -480,7 +480,7 @@
     "id": "dndspelldetectmagict",
     "name": "Arcane: Detect Magic",
     "team": "fabled",
-    "ability": "Cast at night. You will be told what status effects are on you and your neighbors (poisoned, feral, silenced).",
+    "ability": "Cast at night. You will be told what status effects are on you and your neighbors (poisoned, feral, silenced, charmed).",
     "image": "https://philipber99.github.io/botc/icons/detect_magic.png",
     "firstNight": 0,
     "otherNight": 0,
