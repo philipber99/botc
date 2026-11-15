@@ -315,16 +315,16 @@
     "id": "succubus",
     "name": "Succubus",
     "team": "minion",
-    "ability": "On the first night, choose a good player. Each night after the first, you can make them mad that another character is evil, whom they must nominate if possible. If you do not, they are silenced. You can not silence a player 2 days in a row.",
+    "ability": "Each night, choose 2-4 players not chosen the previous night. During the discussion phase, they must leave the group and have a private discussion until nominations start. Anyone who does not may die. -1 outsiders.",
     "image": "https://philipber99.github.io/botc/icons/succubus.png",
     "reminders": [
+      "Succubus-last charmed",
       "Succubus-charmed",
-      "Charmed's target"
     ],
     "firstNight": 60,
     "otherNight": 60,
-    "firstNightReminder": "Wake Succubus to choose a good player. Mark succubus-charmed. The identity persists until the relevant ability ceases.",
-    "otherNightReminder": "Clear Charmed's target on any players. Wake Succubus. They may name whom the charmed player is mad about being evil. Mark Charmed's target if a target is selected, otherwise mark Succubus charmed player as Silenced. Wake charmed player, tell whom they are mad about being evil or that they are silenced."
+    "firstNightReminder": "Wake Succubus to choose 2-4 players. Mark them as charmed. Put Succubus to sleep. Wake the charmed players together. Indicate that they have been charmed by the Succubus and must have a private conversation the next day. Clear the last-charmed marks.",
+    "otherNightReminder": "Mark charmed players as last charmed instead of charmed. Wake Succubus to choose 2-4 players. Ensure they are not last charmed. Mark them as charmed. Put Succubus to sleep. Wake the chosen players together. Indicate that they have been charmed by the Succubus and must have a private conversation the next day. Clear the last charmed marks."
   },
   {
     "id": "revenant",
