@@ -163,15 +163,16 @@
     "id": "warlock",
     "name": "Warlock",
     "team": "townsfolk",
-    "ability": "The Demon knows who you are. If you are killed while mad that you are not the Warlock, the next kill that was the result of a Demon ability does not happen.",
+    "ability": "The demon knows who you are. If you nominate and execute an evil player, you become evil. If that player is the demon, you become the demon.",
     "image": "https://philipber99.github.io/botc/icons/warlock.png",
     "reminders": [
       "Known to Demon",
-      "Next Demon kill blocked"
+      "Executed Evil Player"
     ],
     "firstNight": 15,
     "otherNight": 0,
-    "firstNightReminder": "Wake the Demon (not the Warlock) and identify the Warlock. When an active Warlock ability triggers on being killed, place Next Demon kill blocked. It persists across days/nights until the NEXT attempted Demon kill, including a delayed kill; prevent that one kill and consume the marker. Merely biting or applying a status is not a kill."
+    "firstNightReminder": "Wake the Demon and identify the Warlock.",
+    "otherNightReminder": "If the Warlock nominated and executed an evil player during the day, wake up the Warlock; tell them that they are evil. If the executed player was the demon, tell the Warlock they are Demon."
   },
   {
     "id": "dndwizard",
